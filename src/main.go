@@ -9,7 +9,7 @@ import (
 func main() {
 	// fmt.Println("Hello from Atom!!!")
 
-	alpha_in := []rune("aa")
+	alpha_in := []rune("c")
 	out := convert.ColA2N(alpha_in)
 
 	fmt.Println(out)
