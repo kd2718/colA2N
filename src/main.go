@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 
 	"github.com/kd2718/colA2N/src/convert"
 )
@@ -9,7 +10,7 @@ import (
 func main() {
 	// fmt.Println("Hello from Atom!!!")
 
-	alpha_in := []rune("c")
+	alpha_in := []rune(strings.ToUpper("c"))
 	out := convert.ColA2N(alpha_in)
 
 	fmt.Println(out)
